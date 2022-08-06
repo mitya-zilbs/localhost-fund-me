@@ -1,0 +1,178 @@
+body {
+  background: linear-gradient(180deg, #49555a 0%, #3447a7 52.08%, #121476 100%);
+  background-attachment: fixed;
+  background-position: 0px 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  height: 150px;
+  letter-spacing: 0.5px;
+  font-family: "Trebuchet MS";
+  text-shadow: 0 0 5px #bdbdbd;
+  text-emphasis: initial;
+}
+
+h1 {
+  box-shadow: 3px 3px 15px rgba(253, 61, 206, 0.7);
+  border-radius: 25px;
+  width: 38%;
+  text-align: center;
+  color: seashell;
+  margin: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 2px solid;
+  border-top-color: #23aee3;
+  border-left-color: #23aee3;
+  border-bottom-color: #fd3dce;
+  border-right-color: #fd3dce;
+}
+
+title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
+  filter: blur(28px);
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS";
+  text-emphasis: initial;
+  font-weight: 1000;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  padding: 14px 32px;
+  gap: 8px;
+  background: linear-gradient(90deg, #23aee3 5%, #9b71d8 50.08%, #fd3dce 100%);
+  border-radius: 8px;
+}
+
+#connectDiv {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  border-radius: 45px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 3px;
+  border: 0.1px solid white;
+  border-radius: 50px;
+  box-shadow: 0 0 1.5px white;
+  align-items: center;
+}
+
+#connectButton {
+  height: 40px;
+  border-radius: 45px;
+  color: #0d0e58;
+  text-shadow: 0 0 3px whitesmoke;
+  cursor: pointer;
+}
+
+#balanceButton,
+#fundButton,
+#withdrawButton {
+  height: 70px;
+  width: 200px;
+  margin: 5px;
+  border-radius: 45px;
+  color: white;
+  text-shadow: 0 0 5px #bdbdbd;
+  border: 2px solid;
+  border-top-color: #23aee3;
+  border-left-color: #23aee3;
+  border-bottom-color: #9b71d8;
+  border-right-color: #9b71d8;
+  opacity: 1;
+}
+
+#balanceRow,
+#fundRow,
+#withdrawRow {
+  background-color: rgb(33, 36, 41);
+  width: fit-content;
+  border-radius: 30px;
+  height: 100px;
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid;
+  border-top-color: #000000;
+  border-left-color: #000000;
+  border-bottom-color: #09249d;
+  border-right-color: #09249d;
+  box-shadow: 5px 5px 5px 5px rgba(15, 1, 10, 0.9);
+  opacity: 0.9;
+}
+
+#withdrawRow {
+  margin-bottom: 20px;
+}
+
+#allRows {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 5px 15px 10px 5px rgba(17, 18, 111, 0.628);
+  background: linear-gradient(180deg, #0e1076 5%, #0b0d6a 52.08%, #08094b 100%);
+  border: 3px solid;
+  border-top-color: #9b71d8;
+  border-left-color: #9b71d8;
+  border-bottom-color: #9b71d8;
+  border-right-color: #9b71d8;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+
+#balanceAmountDiv,
+#ethAmount,
+#withdrawDiv {
+  height: 50px;
+  width: auto;
+  background-color: rgb(33, 36, 41);
+  font-family: "Andale Mono", monospace;
+  color: grey;
+  margin: 5px;
+  font-size: x-large;
+  border-radius: 25px;
+  border-color: rgb(37, 36, 36);
+  border-style: none;
+  cursor: default;
+  opacity: 0.8;
+}
+
+#successMessage {
+  font-family: "Trebuchet MS";
+  color: rgb(6, 186, 12);
+  font-size: large;
+}
