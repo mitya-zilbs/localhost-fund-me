@@ -1,6 +1,7 @@
 # Localhost Funding Application
 
 This project focuses on testing the front-end capabilities of the hardhat network and interacting with Metamask in a browser setting using a local host network. It utilizes a hardhat node as a means of creating a local blockchain in order to interact with the 'FundMe' contract. The address of the contract is located in 'constants.js :1'.
+![image](https://user-images.githubusercontent.com/99213972/183232560-a172af91-df8e-435e-a6e5-4616665d8750.png)
 
 The program incorporates these functions:
 connect() - connects the Metamask wallet to the program
